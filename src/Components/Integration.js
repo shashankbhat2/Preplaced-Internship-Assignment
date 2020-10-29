@@ -16,7 +16,7 @@ const Integration = () => {
                   <div class="col-lg-7">
                     <h3 class="head">Integrations</h3>
                   </div>
-                  <div class="col-lg-2 col-md-2">
+                  <div class="col-lg-2 col-md-2 fav-tab">
                     <NavLink class="favourites" to="/favourites">Favourites</NavLink>
                   </div>
                   <div class="col-lg-3 col-md-0">

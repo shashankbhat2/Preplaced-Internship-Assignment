@@ -77,6 +77,7 @@ body{
 select{
     border: none !important;
     color: #1FACFC !important;
+    background-color: none !important;
     font-size: 18px !important;
     cursor: pointer;
 }
@@ -178,8 +179,9 @@ button:active, button:focus{
         margin: 0 !important;
     }
     .Integration-Section{
-        margin: 10px !important;
-        padding: 10px !important;
+        margin: 5px !important;
+        text-align: center  !important;
+        padding: 5px !important;
     }
     .app{
         margin: 0 !important;
@@ -204,8 +206,13 @@ button:active, button:focus{
     .card-img{
         width: 100% !important;
         height: 300px !important;
-        object-fit: cover;
      }
+    .fav-tab{
+        margin-top: 20px !important;
+    }
+    .category{
+        margin-top: 20px !important;
+    }
 }
 
 
@@ -253,5 +260,13 @@ button:active, button:focus{
         margin: 0 !important;
         margin-top: 50px !important;
         padding: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+
+    .card{
+        height: auto !important;
+        margin-bottom: 20px;
     }
 }
