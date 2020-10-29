@@ -34,7 +34,7 @@ const Integration = () => {
           <h2 class="heading mt-4 mb-4">Your Integrations</h2>
           <div class="row">
           { integrations.map(integration => 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 col-s-5 col-xsm-5">
           <li key={integration.id}>
           <Card integration={integration}></Card>
           </li>

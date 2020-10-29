@@ -16,7 +16,7 @@ const Card = ({integration}) => {
             <h5 class="card-title">{integration.name}</h5>
             <p class="card-text">{integration.desc}</p>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7">
                 <button class={`card-text ml-0 mr-4 mt-2 mb-4 ${isConnected? 'connected' : 'connect'}`} disabled={isConnected? true : false} >{isConnected ? 'Connected' : 'Connect'}</button>
                 </div>   
                 <div class="col-md-2 mb-4">
