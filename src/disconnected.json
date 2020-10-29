@@ -1,0 +1,23 @@
+[
+    {
+        "id": 4,
+        "image":"https://sm.pcmag.com/t/pcmag_in/review/m/mailchimp/mailchimp_t1ak.1920.jpg",
+        "name":"Mailchimp",
+        "desc": "Connect your lead flows and collected forms to your Mailchimp account.",
+        "connected":false
+    },
+    {
+        "id": 5,
+        "image":"https://sitevision.com/wp-content/uploads/2019/08/WordPress-logotype-alternative.png",
+        "name":"Wordpress",
+        "desc": "Connect with WordPress blog or website to convert website visitors into leads or buyers.",
+        "connected":false
+    },
+    {
+        "id": 6,
+        "image":"https://380577-1217260-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/10/partnerlogo-salesforce-165-x-90@3x.png",
+        "name":"Salesforce",
+        "desc": "Sync Salesforce for a fast, reliable and powerful integration between your two databases.",
+        "connected":false
+    }
+]

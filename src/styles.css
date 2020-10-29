@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: white;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.nav-section{
+    background-color: white;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 800px;
+}    
+
+.nav-link{
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 0 !important;
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height: auto;
+    font-size: 18px;
+    padding: 20px 20px !important;
+    font-weight: 500;
+}
+.icon{
+    color: gray;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.icon.active{
+    color: #1FACFC !important;
+}
+.nav-info{
+    color: #BDBDBD;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 35px;
+    font-weight: 400;
+}
+.nav-info.active{
+    color: gray !important;
+}
+.nav-link:hover,
+.nav-link.active{
+    border-right: 4px solid #1FACFC !important;
+    border-radius: 0 !important;
+    background-color:white !important;
+    color: #1FACFC !important;
+}
+.head{
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.favourites{
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.favourites:hover{
+    color: none !important;
+    text-decoration: none !important;
+}
+.dummyoptions{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins !important;
+}
+select{
+    border: none !important;
+    color: #1FACFC !important;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+.category{
+    color: grey;
+    font-size: 20px;
+}
+
+.input{
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 30px;
+    background-color: aliceblue !important ;
+    border: none !important;
+    height: 30px !important; 
+    border-radius: 2px !important;
+    padding: 20px !important;
+}
+.ruler{
+    width: 100%;
+    background-color:aliceblue;
+    height: 1px;
+}
+
+li{
+    list-style: none !important;
+}
+.card{
+    border: none !important;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    flex: 1 !important;
+    border-radius: 6px;
+    height: 400px;
+    cursor: pointer;
+    transition: 1s cubic-bezier() !important;
+}
+
+.card-img{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover;
+ }
+ .card-title{
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+ }
+.card-text{
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 18px;
+    color: #BDBDBD;
+}
+
+.connect{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #1FACFC;
+    font-weight: 500;
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.connected{
+    color: #BDBDBD;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 4px 4px 83px rgba(0, 0, 0, 0.15);
+}
+
+button{
+    border: 0 !important;
+    text-align: left;
+    width: 150px !important;
+    background-color: transparent !important;
+}
+
+button:active, button:focus{
+    outline: none !important;
+}
+
+.heart{
+    height: 20px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 500px) {
+    .navigation{
+        margin: 10px !important;
+        margin-top: 50px !important;
+        padding: 10px !important;
+    }
+    .nav-section{
+        height: 600px;
+    }    
+    .main{
+        margin: 0 !important;
+    }
+    .Integration-Section{
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    .app{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .card{
+        height: auto !important;
+        margin-bottom: 30px !important;
+    }
+    .heart{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .connect{
+        margin: 0 !important;  
+    }
+
+    .connected{
+        margin: 0 !important;    
+    }
+    .card-img{
+        width: 100% !important;
+        height: 300px !important;
+        object-fit: cover;
+     }
+}
+
+
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .navigation{
+        margin: 0 !important;
+        margin-top: 50px !important;
+        padding: 0 !important;
+    }
+    .card{
+        height: auto !important;
+        margin-bottom: 30px !important;
+    }
+    .card-img{
+        width: 100% !important;
+        height: 150px !important;
+        object-fit: fill;
+     }
+     .Integration-Section{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .head-nav{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .list{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .card-img{
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: fill;
+     }
+     .card{
+         height: auto !important;
+         margin-bottom: 20px;
+     }
+     .navigation{
+        margin: 0 !important;
+        margin-top: 50px !important;
+        padding: 0 !important;
+    }
+}
