@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Card from './Card'
 import data from '../connected.json'
 import disconnected_data from '../disconnected.json'

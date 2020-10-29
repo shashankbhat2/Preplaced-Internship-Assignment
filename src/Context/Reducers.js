@@ -1,4 +1,4 @@
-export default (state, action) => {
+ const Reducers = (state, action) => {
     switch (action.type) {
       case "ADD_INTEGRATION_TO_FAVOURITES":
         return {
@@ -16,3 +16,5 @@ export default (state, action) => {
         return state;
     }
 }
+
+export default Reducers;

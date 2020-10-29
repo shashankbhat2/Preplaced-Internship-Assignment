@@ -7,19 +7,21 @@ body{
 }
 
 .main{
+    overflow: hidden;
     background-color: white;
     box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     height: 100%;
 }
-
 .nav-section{
     background-color: white;
     box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     height: 800px;
 }    
-
+.Integration-Section{
+    overflow: hidden;
+}
 .nav-link{
     border-bottom: 1px solid #E0E0E0;
     border-radius: 0 !important;
@@ -165,7 +167,18 @@ button:active, button:focus{
 .heart{
     height: 20px;
 }
-
+.app{
+    overflow: hidden;
+}
+.empty{
+    height: 800px;
+    text-align: center;
+}
+.empty > p{
+    margin-top: 400px;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
 @media screen and (min-width: 321px) and (max-width: 500px) {
     .navigation{
         margin: 10px !important;
