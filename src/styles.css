@@ -205,7 +205,8 @@ button:active, button:focus{
     }
     .card-img{
         width: 100% !important;
-        height: 300px !important;
+        height: 250px !important;
+        object-fit: cover;
      }
     .fav-tab{
         margin-top: 20px !important;
