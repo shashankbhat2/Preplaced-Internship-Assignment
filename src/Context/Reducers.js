@@ -3,7 +3,7 @@
       case "ADD_INTEGRATION_TO_FAVOURITES":
         return {
           ...state,
-          favourites: [action.payload, ...state.favourites],
+          favourites: [...state.favourites, action.payload],
         };
       case "REMOVE_INTEGRATION_FROM_FAVOURITES":
         return {
