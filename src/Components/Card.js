@@ -4,6 +4,7 @@ import filledheart from '../assets/filledheart.svg'
 import { GlobalContext } from '../Context/GlobalState';
 import bin from '../assets/bin.svg'
 const Card = ({integration}) => {
+  
     const {addIntegrationToFavourites, favourites, removeIntegrationFromFavourites} = useContext(GlobalContext)
     let favouritedIntegration = favourites.find((i) => i.id === integration.id)
   

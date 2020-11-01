@@ -1,10 +1,9 @@
 import React from 'react'
 import Card from './Card'
-import data from '../connected.json'
-import disconnected_data from '../disconnected.json'
+import data from '../integrations.json'
 import { NavLink } from 'react-router-dom'
-const integrations = data
-const not_integrated = disconnected_data
+const integrations = data.filter((i) => i.connected === true)
+const not_integrated = data.filter((i) => i.connected === false);
 
 const Integration = () => {
   

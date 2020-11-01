@@ -1,5 +1,26 @@
 [
     {
+        "id": 1,
+        "image":"https://www.logosvgpng.com/wp-content/uploads/2018/03/slack-logo-vector.png",
+        "name":"Slack",
+        "desc": "Slack is a digital workplace which connects you to the people and tools you work with everyday.",
+        "connected":true
+    },
+    {
+        "id": 2,
+        "image":"https://d1afx9quaogywf.cloudfront.net/sites/default/files/Logos/Facebook400x230.png",
+        "name":"Facebook",
+        "desc": "Connect your Facebook ads account and never struggle to report on the success.",
+        "connected":true
+    },
+    {
+        "id": 3,
+        "image":"https://x5m7g5e8.stackpathcdn.com/static/images/pages/integrations/logo/zendesk.png",
+        "name":"Zendesk",
+        "desc": "Gain more insights into the customer experiance with the new Zendesk activity integration",
+        "connected":true
+    },
+    {
         "id": 4,
         "image":"https://sm.pcmag.com/t/pcmag_in/review/m/mailchimp/mailchimp_t1ak.1920.jpg",
         "name":"Mailchimp",
